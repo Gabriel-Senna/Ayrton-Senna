@@ -1,0 +1,112 @@
+		body { background-color:rgb(255,127,39);
+		}
+		h1 {color:green; 
+			font-size: 500%;
+		}
+		h2 {color:blue;
+		}
+		a  {text-align:center;
+		}
+		p {font-size:20px;
+		   text-indent:50px; 
+		   text-align:right;
+		   font-family: "Josefin Sans", sans-serif;
+		   color: aliceblue;
+		   
+		}
+		table {border:0.5px solid black;font-size:45.5px;
+				border-spacing:0.5px;
+				margin-left:auto;
+				margin-right:auto;
+				color:black;
+				background-color:white;
+			
+	
+			
+		}
+		
+		a:link {
+			color:rgb(55, 0, 255);
+			background-color: transparent;
+			text-decoration: underline;
+
+		}
+
+		a:visited {
+			color:white;
+			background-color: transparent;
+			text-decoration: none;
+		}
+		a:hover {
+        color:rgb(255, 255, 255);
+        background-color : transparent;
+		text-shadow: 2px 2px rgb(0, 0, 0);
+
+		}
+	
+		.menu {
+		float:left;
+		width: 20%;
+		text-align: center;
+		font-size: 103%;
+		}
+
+		* {
+			box-sizing: border-box;
+
+		}
+
+		.menuitem {
+        background-color: cyan;
+		padding: 8px;
+		margin-top: 7px;
+		font-size: 100%;
+
+		}
+
+		.main{
+			float:center;
+			width: 80%;
+			padding: 0 20px;
+			text-align:center;
+
+		}
+
+		@media screen and (max-width:640px) {
+			.menu, .main {
+			width: 100%;
+			}
+			
+		}
+
+		td {
+    padding: 30px 0px;
+	font-family: "Josefin Sans", sans-serif;
+	background-color: rgb(255, 118, 6);
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0 10px;
+		}
+		.destaque{
+			font-size: 25px;
+		}
+
+		table thead,caption {
+			
+			background-color: rgb(255, 118, 6);
+			font-family: "Josefin Sans", sans-serif;
+			font-size: 40px;
+			padding: 20px 0px;
+			color: aliceblue;
+			border-top:2px solid black ;
+			border-right:2px solid black ;
+			border-left:2px solid black ;
+		    border-radius: 20px 20px 0px 0px ;
+			text-shadow: 0 0 10px;
+			
+		}
+
+		.borda{
+		border-bottom: 1pt solid black;
+		}
+
+	
